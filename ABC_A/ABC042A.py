@@ -1,7 +1,6 @@
 import sys
 
 numList = list(map(int, input().split()))
-
 numList.sort()
 for i in range len(numList):
     if(i == 0){
